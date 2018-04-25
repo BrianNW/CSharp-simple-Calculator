@@ -20,9 +20,9 @@ namespace SimpleCalculator
                 double secondNumber = inputConverter.ConvertInputToNumeric(Console.ReadLine());
                 string operation = Console.ReadLine();
 
-                double result = calculatorEngine.Cailculate(operation, firstNumber, secondNumber);
+                double result = calculatorEngine.Calculate(operation, firstNumber, secondNumber);
 
-                console.WriteLine(result);
+                Console.WriteLine(result);
             }
             catch(Exception ex)
             {
